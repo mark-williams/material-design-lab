@@ -3,28 +3,8 @@
 <head>
     <title>Material Design Playground</title>
     <link rel="stylesheet" href="node_modules/material-design-lite/dist/material.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        .instructor-card.mdl-card { width: 200px; height: 256px; background: #3E4EB8; } 
-        .instructor-card > .mdl-card__actions {
-            border-color: rgba(255, 255, 255, 0.2); 
-        } 
-        .instructor-card > .mdl-card__title { align-items: flex-start; } 
-        .instructor-card > .mdl-card__title > h4 { margin-top: 0; } 
-        .instructor-card > .mdl-card__actions { 
-            display: flex; 
-            box-sizing:border-box;
-            align-items: center; 
-        } 
-        .instructor-card > .mdl-card__actions > .material-icons { padding-right: 10px; } 
-        .instructor-card > .mdl-card__title, 
-        .instructor-card > .mdl-card__supporting-text, 
-        .instructor-card > .mdl-card__actions, 
-        .instructor-card > .mdl-card__actions > .mdl-button { 
-            color: #fff;
-        }
-    </style>
 </head>
 
 <body>
@@ -45,136 +25,123 @@
 
         <main class="mdl-layout__content">
             <div class="mdl-grid">
-                <div class="mdl-cell mdl-cell--12-col  mdl-card__supporting-text no-padding" id="overview">
-                    <h1>Lorem ipsum</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque semper lectus nibh, porttitor dignissim
-                        ligula pharetra nec. Suspendisse nec nisi quis lectus maximus facilisis id ut lectus. Cras consectetur
-                        dolor eu sapien consectetur semper. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
-                        per inceptos himenaeos. Vestibulum et dapibus libero. Curabitur sit amet orci non felis rhoncus mattis
-                        id id nulla. Nulla non eros ipsum. Donec nisl lorem, laoreet ac porttitor tincidunt, lobortis at risus.
-                        Nunc augue justo, venenatis eget scelerisque at, rutrum sed eros. Interdum et malesuada fames ac ante
-                        ipsum primis in faucibus.</p>
-                </div>
-            </div>
+                <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--2dp">
+                    <div class="mdl-grid">
 
-            <div class="mdl-grid">
-                
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Paul Green
-                        </h4>
-                    </div>
-                        <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
-                    </div>
-                </div>
-                            
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Sarah Jones
-                        </h4>
-                    </div>
-                        <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
-                    </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
-                    </div>
-                </div>
+                    <h1 class="mdl-cell mdl-cell--12-col">Instructors</h1>        
 
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Zoe Taylor
-                        </h4>
-                    </div>
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--1-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Paul Green
+                            </h4>
+                        </div>
                         <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
-                    </div>
-                </div>
 
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Tony Francis
-                        </h4>
-                    </div>
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Sarah Jones
+                            </h4>
+                        </div>
                         <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
-                    </div>
-                </div>
 
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Paul Keegan
-                        </h4>
-                    </div>
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Zoe Taylor
+                            </h4>
+                        </div>
                         <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
-                    </div>
-                </div>
 
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Helen Watson
-                        </h4>
-                    </div>
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Tony Francis
+                            </h4>
+                        </div>
                         <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
-                    </div>
-                </div>
 
-                <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
-                    <div class="mdl-card__title mdl-card--expand">
-                        <h4>
-                            Phil Wells
-                        </h4>
-                    </div>
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Paul Keegan
+                            </h4>
+                        </div>
                         <div class="mdl-card__supporting-text">
-                        Session cost: £29.00<br>
-                        Free slots: 4
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
                     </div>
-                    <div class="mdl-card__actions mdl-card--border">
-                        <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                            Details</a>
-                        <div class="mdl-layout-spacer"></div>
+
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Helen Watson
+                            </h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
+                    </div>
+
+                    <div class="instructor-card mdl-card mdl-shadow--2dp mdl-cell mdl-cell--2-col">
+                        <div class="mdl-card__title mdl-card--expand">
+                            <h4>
+                                Phil Wells
+                            </h4>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            Session cost: £29.00<br> Free slots: 4
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                                        Details</a>
+                            <div class="mdl-layout-spacer"></div>
+                        </div>
+                    </div>
+
                     </div>
                 </div>
             </div>

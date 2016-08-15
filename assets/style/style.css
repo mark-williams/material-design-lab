@@ -1,0 +1,18 @@
+.instructor-card.mdl-card { width: 180px; height: 140px; background: #3E4EB8; } 
+.instructor-card > .mdl-card__actions {
+    border-color: rgba(255, 255, 255, 0.2); 
+} 
+.instructor-card > .mdl-card__title { align-items: flex-start; } 
+.instructor-card > .mdl-card__title > h4 { margin-top: 0; } 
+.instructor-card > .mdl-card__actions { 
+    display: flex; 
+    box-sizing:border-box;
+    align-items: center; 
+} 
+.instructor-card > .mdl-card__actions > .material-icons { padding-right: 10px; } 
+.instructor-card > .mdl-card__title, 
+.instructor-card > .mdl-card__supporting-text, 
+.instructor-card > .mdl-card__actions, 
+.instructor-card > .mdl-card__actions > .mdl-button { 
+    color: #fff;
+}
